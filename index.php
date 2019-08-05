@@ -8,7 +8,7 @@ $pic = $_GET["pic"];
 switch($mode)
 {
   case "1":$im = imagecreatefromjpeg("xhxh.jpg");break;
-  case "2":if($pic=="Chtholly"){$im = imagecreatefromjpeg("qmd_Chtholly.jpg");}else if($pic=="Pipi"){$im = imagecreatefromjpeg("qmd_pipi.jpg");}else if($pic=="Susu"){$im = imagecreatefromjpeg("qmd_susu.jpg");}else {$im = imagecreatefromjpeg("qmd.jpg");}break;
+  case "2":if($pic=="Chtholly"){$im = imagecreatefromjpeg("qmd_Chtholly.jpg");}else if($pic=="Susu"){$im = imagecreatefromjpeg("qmd_susu.jpg");}else {$im = imagecreatefromjpeg("qmd.jpg");}break;
   default:$im = imagecreatefromjpeg("xhxh.jpg");break;
 }
 $ip = $_SERVER["REMOTE_ADDR"];
